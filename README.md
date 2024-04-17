@@ -31,7 +31,7 @@ import numpy as np
 from matplotlib import pyplot as plt
 
 # Read the color image
-input_image_path = 'Photo.jpg'
+input_image_path = 'sar.jpg'
 color_image = cv2.imread(input_image_path)
 
 # Convert the color image to grayscale
